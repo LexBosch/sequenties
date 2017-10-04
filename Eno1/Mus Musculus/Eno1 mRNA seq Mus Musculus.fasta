@@ -1,0 +1,104 @@
+LOCUS       XM_006538525            1778 bp    mRNA    linear   ROD 22-JUN-2016
+DEFINITION  PREDICTED: Mus musculus enolase 1, alpha non-neuron (Eno1),
+            transcript variant X1, mRNA.
+ACCESSION   XM_006538525
+VERSION     XM_006538525.2
+DBLINK      BioProject: PRJNA169
+KEYWORDS    RefSeq.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_000070.6) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Feb 9, 2015 this sequence version replaced gi:568930537.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mus musculus Annotation Release 106
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1778
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /strain="C57BL/6J"
+                     /db_xref="taxon:10090"
+                     /chromosome="4"
+     gene            1..1778
+                     /gene="Eno1"
+                     /gene_synonym="0610008I15; AL022784; Eno-1; MBP-1"
+                     /note="enolase 1, alpha non-neuron; Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 97
+                     mRNAs, 838 ESTs, 127 long SRA reads, 31 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 23 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:13806"
+                     /db_xref="MGI:MGI:95393"
+     CDS             156..1460
+                     /gene="Eno1"
+                     /gene_synonym="0610008I15; AL022784; Eno-1; MBP-1"
+                     /codon_start=1
+                     /product="alpha-enolase isoform X1"
+                     /protein_id="XP_006538588.2"
+                     /db_xref="GeneID:13806"
+                     /db_xref="MGI:MGI:95393"
+                     /translation="MSILRIHAREIFDSRGNPTVEVDLYTAKGLFRAAVPSGASTGIY
+                     EALELRDNDKTRFMGKGVSQAVEHINKTIAPALVSKKVNVVEQEKIDKLMIEMDGTEN
+                     KSKFGANAILGVSLAVCKAGAVEKGVPLYRHIADLAGNPEVILPVPAFNVINGGSHAG
+                     NKLAMQEFMILPVGASSFREAMRIGAEVYHNLKNVIKEKYGKDATNVGDEGGFAPNIL
+                     ENKEALELLKTAIAKAGYTDQVVIGMDVAASEFYRSGKYDLDFKSPDDPSRYITPDQL
+                     ADLYKSFVQNYPVVSIEDPFDQDDWGAWQKFTASAGIQVVGDDLTVTNPKRIAKAASE
+                     KSCNCLLLKVNQIGSVTESLQACKLAQSNGWGVMVSHRSGETEDTFIADLVVGLCTGQ
+                     IKTGAPCRSERLAKYNQILRIEEELGSKAKFAGRSFRNPLAK"
+     STS             790..912
+                     /gene="Eno1"
+                     /gene_synonym="0610008I15; AL022784; Eno-1; MBP-1"
+                     /standard_name="RH125429"
+                     /db_xref="UniSTS:162251"
+ORIGIN      
+        1 gtgaggccct ctggccgcgc atcaacgttt ccacaccgcc gggggctcca gaacctcccg
+       61 gtggggggtt ggccggctgg agggccgagc cgcgaaggtc atcagcaagg tcgtgggccg
+      121 gacgtgtggc gccgcagcca cgccgaaaat tcgccatgtc tattctcagg atccacgcca
+      181 gagagatctt tgactcccgt gggaatccca ctgttgaggt cgatctgtac accgcaaaag
+      241 gtctcttccg agctgcggtg cccagcggtg cgtccactgg catctacgag gccctagaac
+      301 tccgagacaa tgataagacc cgcttcatgg ggaagggtgt ctcacaggct gttgagcaca
+      361 tcaataaaac tattgcgcct gctctggtta gcaagaaagt gaatgttgtg gagcaagaga
+      421 agattgacaa gctgatgatc gagatggacg gcacagagaa taaatctaaa tttggtgcaa
+      481 atgccatcct gggagtgtcc ctggctgtct gcaaagctgg tgccgtggaa aagggggtgc
+      541 ccctttaccg ccacattgct gacttggccg gcaaccctga agtcatcctg cctgtcccgg
+      601 ctttcaatgt gatcaacggt ggttctcatg ctggcaacaa gctggccatg caagagttca
+      661 tgatcctgcc tgtgggggca tccagcttcc gggaagccat gcgcattgga gcagaggttt
+      721 accacaacct gaagaacgtg atcaaggaga agtacgggaa ggacgccacc aatgtgggtg
+      781 atgagggtgg attcgcacct aacatcctgg agaacaaaga agcactggag ctgctcaaga
+      841 ctgcaatcgc aaaggccggc tacactgacc aggttgtcat tggcatggat gtggctgcct
+      901 ccgagttcta caggtctggc aagtatgacc tggacttcaa gtctccggat gaccccagca
+      961 ggtacatcac tcccgaccag ctggctgatc tgtacaagtc cttcgtccag aactacccag
+     1021 tggtgtccat cgaagatccc tttgaccagg acgactgggg cgcctggcag aagttcacgg
+     1081 ctagtgcggg catccaggtg gtgggcgatg acctcacagt gaccaaccct aagcggattg
+     1141 ccaaggctgc gagcgagaag tcctgcaact gcctcttgct caaagtgaac cagatcggct
+     1201 ctgtgaccga atccctgcag gcgtgtaagc tggcccaatc caatggctgg ggcgtcatgg
+     1261 tgtcccaccg atctggggaa actgaggaca ctttcatcgc agacctggtg gtggggctct
+     1321 gcactgggca gatcaagact ggtgcccctt gccgatccga gcgcctggcc aagtacaatc
+     1381 agatcctcag aattgaggaa gagctgggca gcaaagccaa gtttgctggc aggtccttca
+     1441 ggaaccccct ggccaaataa agcatggacc ggagatccct ggagccacca gctgctaggt
+     1501 cctctatccc tgatgtcatc ccagcagctc aaggccagcc cagtgcgtgc ccctcccatg
+     1561 tcactgcttc cttaggcatc cacacctgac caccagaatc cctgctggag acccagtttt
+     1621 gcaatcatgt gattggtctg aatcattgtt tctgtcacct gacttcccag ctagtgtctg
+     1681 gagccctcgg aactccagtg taatctctag ggtgcccacc atcaagatcc ccctcccccc
+     1741 agtggtttac atgcaaaaat aaaagccgca gaagtcca
+//
+
