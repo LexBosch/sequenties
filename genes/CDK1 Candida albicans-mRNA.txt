@@ -1,0 +1,122 @@
+LOCUS       XM_708393                954 bp    mRNA    linear   PLN 08-DEC-2016
+DEFINITION  Candida albicans SC5314 cyclin-dependent serine/threonine-protein
+            kinase (CDC28), partial mRNA.
+ACCESSION   XM_708393
+VERSION     XM_708393.1
+DBLINK      BioProject: PRJNA14005
+            BioSample: SAMN02953594
+KEYWORDS    RefSeq.
+SOURCE      Candida albicans SC5314
+  ORGANISM  Candida albicans SC5314
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Debaryomycetaceae;
+            Candida/Lodderomyces clade; Candida.
+REFERENCE   1  (bases 1 to 954)
+  AUTHORS   Muzzey,D., Schwartz,K., Weissman,J.S. and Sherlock,G.
+  TITLE     Assembly of a phased diploid Candida albicans genome facilitates
+            allele-specific measurements and provides a simple model for repeat
+            and indel structure
+  JOURNAL   Genome Biol. 14 (9), R97 (2013)
+   PUBMED   24025428
+REFERENCE   2  (bases 1 to 954)
+  AUTHORS   van het Hoog,M., Rast,T.J., Martchenko,M., Grindle,S., Dignard,D.,
+            Hogues,H., Cuomo,C., Berriman,M., Scherer,S., Magee,B.B.,
+            Whiteway,M., Chibana,H., Nantel,A. and Magee,P.T.
+  TITLE     Assembly of the Candida albicans genome into sixteen supercontigs
+            aligned on the eight chromosomes
+  JOURNAL   Genome Biol. 8 (4), R52 (2007)
+   PUBMED   17419877
+REFERENCE   3  (bases 1 to 954)
+  AUTHORS   Jones,T., Federspiel,N.A., Chibana,H., Dungan,J., Kalman,S.,
+            Magee,B.B., Newport,G., Thorstenson,Y.R., Agabian,N., Magee,P.T.,
+            Davis,R.W. and Scherer,S.
+  TITLE     The diploid genome sequence of Candida albicans
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (19), 7329-7334 (2004)
+   PUBMED   15123810
+REFERENCE   4  (bases 1 to 954)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2016) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   5  (bases 1 to 954)
+  AUTHORS   Muzzey,D., Schwartz,K., Weissman,J.S. and Sherlock,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2016) Department of Genetics, Candida Genome
+            Database, Stanford University, Mail Stop-5120, Stanford, CA 94305,
+            USA
+REFERENCE   6  (bases 1 to 954)
+  CONSRTM   Candida Genome Database
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-SEP-2016) Department of Genetics, Candida Genome
+            Database, Stanford University, Mail Stop-5120, Stanford, CA 94305,
+            USA
+  REMARK    Sequence and annotation update by submitter
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. This record is derived from an annotated genomic
+            sequence (NC_032096).
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: CGD
+            Annotation Status   :: Full annotation
+            Annotation Version  :: A22-s07-m01-r01
+            URL                 :: http://www.candidagenome.org/
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: incomplete on both ends.
+FEATURES             Location/Qualifiers
+     source          1..954
+                     /organism="Candida albicans SC5314"
+                     /mol_type="mRNA"
+                     /strain="SC5314"
+                     /host="Homo sapiens"
+                     /culture_collection="ATCC:MYA-2876"
+                     /db_xref="taxon:237561"
+                     /chromosome="R"
+                     /haplotype="A"
+                     /country="USA: New York"
+                     /collected_by="Margarita Silva-Hutner"
+     gene            <1..>954
+                     /gene="CDC28"
+                     /locus_tag="CAALFM_CR06050WA"
+                     /old_locus_tag="CaO19.3856"
+                     /db_xref="GeneID:3644838"
+     CDS             1..954
+                     /gene="CDC28"
+                     /locus_tag="CAALFM_CR06050WA"
+                     /old_locus_tag="CaO19.3856"
+                     /note="Cyclin-dependent protein kinase; interacts with
+                     regulatory subunit Cyb1; determination of cell morphology
+                     during the cell cycle; phosphorylated mostly by Swe1 and
+                     phosphorylation is regulated by Hsl1; 5'-UTR intron;
+                     Spider biofilm repressed"
+                     /codon_start=1
+                     /transl_table=12
+                     /product="cyclin-dependent serine/threonine-protein
+                     kinase"
+                     /protein_id="XP_713486.1"
+                     /db_xref="CGD:CAL0000191263"
+                     /db_xref="GeneID:3644838"
+                     /translation="MVELSDYQRQEKVGEGTYGVVYKALDTKHNNRVVALKKIRLESE
+                     DEGVPSTAIREISLLKEMKDDNIVRLYDIIHSDSHKLYLVFEFLDLDLKKYMESIPQG
+                     VGLGANMIKRFMNQLIRGIKHCHSHRVLHRDLKPQNLLIDKEGNLKLADFGLARAFGV
+                     PLRAYTHEVVTLWYRAPEILLGGKQYSTGVDMWSVGCIFAEMCNRKPLFPGDSEIDEI
+                     FRIFRILGTPNEEIWPDVNYLPDFKSSFPQWKKKPLSEAVPSLDANGIDLLDQMLVYD
+                     PSRRISAKRALIHPYFNDNDDRDHNNYNEDNIGIDKHQNMQ"
+ORIGIN      
+        1 atggtagagt tatctgatta tcaacgtcaa gaaaaagtcg gagaaggtac ttatggggtt
+       61 gtttataaag cattagatac caagcacaat aatagagttg ttgcattaaa gaaaattcga
+      121 ttagaatcag aagatgaagg tgtacctagt accgccatta gagaaatctc gttattaaaa
+      181 gaaatgaaag atgataatat cgttcgatta tatgatatta ttcattcaga ttctcataaa
+      241 ttatatttag tatttgaatt tttggattta gatttaaaga aatatatgga aagtattcct
+      301 caaggagttg gactaggggc taatatgata aaaagattta tgaatcaatt aattcgaggt
+      361 attaaacatt gtcattctca tcgagtttta catcgtgatt taaaaccaca aaatttattg
+      421 attgataaag aagggaattt aaaattagca gattttggat tagctcgagc atttggagtt
+      481 ccattaagag catatactca tgaagttgtc actttatggt atcgagctcc cgaaatcttg
+      541 ttaggaggga aacaatattc cactggggta gatatgtggt ctgttggatg tatatttgct
+      601 gaaatgtgta ataggaaacc attatttcct ggtgattcag aaattgatga aattttccga
+      661 attttccgaa ttttaggaac acctaatgaa gaaatttggc ctgatgttaa ttatttacca
+      721 gattttaaat caagtttccc tcaatggaaa aagaaacctt tgagtgaagc agttccaagt
+      781 ttggatgcta atggaattga tcttttggat caaatgttgg tgtatgatcc aagtagaaga
+      841 ataagtgcta aacgagcttt aattcatcct tattttaatg ataatgatga tcgtgatcat
+      901 aacaattata atgaagataa tattgggatt gacaaacacc aaaacatgca ataa
+//
+
